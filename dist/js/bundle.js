@@ -70,7 +70,23 @@
 "use strict";
 
 
-console.log("Loading...");
+__webpack_require__(1);
+
+__webpack_require__(2);
+
+console.log('Loading...');
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
