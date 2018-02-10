@@ -4,8 +4,10 @@ body{
 		margin-right: 0;
 	}
 	//////HEADER/////// 
+	
 	header{ 
 		.wrapper{
+			height: 100px;
 			width: 100%;
 			border-top: 2px solid #7D090D;
 			padding: 0 10px;
@@ -82,7 +84,7 @@ body{
 	//////HERO IMAGE////////
 	#hero-image{
 		// margin-top: 10px;
-		height: 88vh;
+		height: calc(100vh - 100px);
 		// width: 100%;
 		background: url(../images/a.jpg);
 		background-repeat:no-repeat;
