@@ -91,10 +91,8 @@ body header .wrapper nav .downward-links li:hover .abLinks,body header .wrapper 
 
 body #hero-image {
   height: 88vh;
-  width: 100%;
   background: url(../images/a.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
 }
 
