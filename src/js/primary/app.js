@@ -1,19 +1,17 @@
 import React from 'react';
-import Header from './header';
-import Hero from './hero';
-import Features from './features';
-import Secondary from './secondary';
+import Header from '../header';
+import Bg from './bg';
+import Description from './description';
 import Images from './images';
-import Footer from './footer';
+import Footer from '../footer';
 class App extends React.Component{
 
 	render(){
 		return(
 			<div>
 				<Header />
-				<Hero />
-				<Features />
-				<Secondary />
+				<Bg />
+				<Description />
 				<Images />
 				<Footer />
 			</div>
