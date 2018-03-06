@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/js/secondary/index.js',
+  entry: './src/js/task/index.js',
   output: {
     path: `${__dirname}/dist/js`,
     filename: 'bundle.js',
